@@ -136,7 +136,7 @@ h4 {
 	font-family: arca_majoraheavy;
 	letter-spacing: 4px;
 	font-size: 12px;
-	padding: 20px 4px 20px 4px;
+	padding: 20px 4px;
 	border: 2px solid black;
 	text-align: center;
 	margin: auto auto auto auto;
@@ -144,8 +144,11 @@ h4 {
 	cursor: default;
 
  	-webkit-transition-property:color, background;
+ 	transition-property:color, background;
  	-webkit-transition-duration: 0.2s, 0.2s;
+ 	transition-duration: 0.2s, 0.2s;
  	-webkit-transition-timing-function: linear, ease-in;
+ 	transition-timing-function: linear, ease-in;
 
 }
 
@@ -177,7 +180,7 @@ h4:hover {
 	display: inline-block;
 	margin-left: 20px;
 	margin-right: 20px;
-	padding: 10px 6px 10px 6px;
+	padding: 10px 6px;
 
 }
 
@@ -188,11 +191,14 @@ h4:hover {
 	text-align: center;
 	color: black;
 	text-decoration: none;
-	padding: 10px 6px 10px 6px;
-	-webkit-transition-property:color, background;
+	padding: 10px 6px;
+	
+ 	-webkit-transition-property:color, background;
+ 	transition-property:color, background;
  	-webkit-transition-duration: 0.2s, 0.2s;
+ 	transition-duration: 0.2s, 0.2s;
  	-webkit-transition-timing-function: linear, ease-in;
-}
+ 	transition-timing-function: linear, ease-in;}
 
 .navbar-fixed-top a:hover {
 	font-family: arca_majoraheavy;
@@ -216,7 +222,7 @@ h5 {
 	font-family: arca_majoraheavy;
 	letter-spacing: 4px;
 	font-size: 12px;
-	padding: 12px 4px 12px 4px;
+	padding: 12px 4px;
 	border: 2px solid #fff;
 	text-align: center;
 	margin: auto auto auto auto;
@@ -225,8 +231,11 @@ h5 {
 	width: 300px;
 
  	-webkit-transition-property:color, background;
+ 	transition-property:color, background;
  	-webkit-transition-duration: 0.2s, 0.2s;
+ 	transition-duration: 0.2s, 0.2s;
  	-webkit-transition-timing-function: linear, ease-in;
+ 	transition-timing-function: linear, ease-in;
 
 }
 
@@ -293,15 +302,18 @@ h6 {
 	text-align: center;
 	margin-bottom: 100px;
 	font-size: 26px;
-	padding: 25px 10px 25px 10px;
+	padding: 25px 10px;
 	border: 2px solid #fff;
 	width: 500px;
 	cursor: default;
 	background-color: #fff;
 
-	-webkit-transition-property:color, background, border-color;
+ 	-webkit-transition-property:color, background;
+ 	transition-property:color, background;
  	-webkit-transition-duration: 0.2s, 0.2s;
+ 	transition-duration: 0.2s, 0.2s;
  	-webkit-transition-timing-function: linear, ease-in;
+ 	transition-timing-function: linear, ease-in;
 }
 
 .kontakt p:hover {
